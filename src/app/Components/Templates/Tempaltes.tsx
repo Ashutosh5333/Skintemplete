@@ -1,6 +1,5 @@
 import React from "react";
-import InvoicecreateCard from "../invoicecreate/InvoicecreateCard";
-import { FaMicrophoneAlt } from "react-icons/fa";
+
 import TemplateCard from "./TemplateCard";
 
 const Tempaltes = () => {
