@@ -10,7 +10,6 @@ const TemplateCard = () => {
   );
 
   
-
   return (
     <>
       <div className=" min-h-screen mt-5 rounded-lg ">
@@ -18,7 +17,7 @@ const TemplateCard = () => {
           {data.length > 0 &&
             data.map((el, i) => {
               return (
-                <div>
+                <div key={i}>
                   <div className="border-2 px-1 hover:border-black  border-gray-300 rounded-xl">
                     <div className="py-2 mt-2 px-2">
                       <Image
