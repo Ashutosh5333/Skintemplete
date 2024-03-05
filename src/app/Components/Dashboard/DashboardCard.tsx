@@ -7,7 +7,6 @@ import Tempaltes from "../Templates/Tempaltes";
 const DashboardCard = () => {
   return (
     <>
-
       <div className="px-4 border-black">
         <h1 className="text-3xl py-2"> Invoice </h1>
         <h2 className="text-lg py-2 text-[#4C4D4F]">Create a invoice for your patients  </h2>
@@ -15,13 +14,13 @@ const DashboardCard = () => {
 
       <div className="Main-DetailContainer   border-black flex flex-col lg:flex-row">
        
-        <div className="Invoice py-2 px-2 border-green-500 w-[100%] lg:w-[74%]  ">
+        <div className="Invoice py-2 px-1 border-green-500 w-[100%] lg:w-[74%]  ">
           <Tempaltes/>
         </div>
 
         {/* -----------------  invoice ----------- */}
 
-        <div className="Invoiceprint mt-2 w-[100%]   lg:w-[30%]  border-yellow-700">
+        <div className="Invoiceprint mt-2 w-[100%]   lg:w-[26%]  border-yellow-700">
           <Preview />
         </div>
       </div>

@@ -87,8 +87,8 @@ const Preview = () => {
           </div>
 
           <div className="px-4 py-4 mb-5 bg-[#F8F8F8]">
-            <h2 className="text-[.9rem] "> Notes/Terms </h2>
-            <p className="text-[.7rem] text-[#777777]">
+            <h2 className="text-[.8rem] "> Notes/Terms </h2>
+            <p className="text-[.6rem] text-[#777777]">
               Lorem ipsum dolor sit amet. Sit eaque assumenda qui.
             </p>
           </div>

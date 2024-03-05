@@ -7,7 +7,7 @@ const TempalteList = () => {
 
   return (
     <div>
-    <div className="border-2 rounded-lg mt-10   overflow-x-auto">
+    <div className="border-2 rounded-lg mt-3  overflow-x-auto">
       <table className="table-auto w-full px-2 ">
         <thead>
           <tr className="rounded-t-lg bg-[#000000] px-2 ">
@@ -21,11 +21,11 @@ const TempalteList = () => {
             ))}
           </tr>
         </thead>
-        <tbody className="  text-left text-[.5rem]  text-[#000000] w-[90%] m-auto">
+        <tbody className="  text-left text-[.4rem]  text-[#000000] w-[90%] m-auto">
           {INVOICE_ROWS.map((row, rowIndex) => (
             <tr
               key={rowIndex}
-              className="font-semibold  text-[.5rem] bg-[#F8F8F8] px-2 py-8 "
+              className="font-semibold  text-[.4rem] bg-[#F8F8F8] px-4 py-8 "
             >
               <td className="  px-1 py-2">{row.name}</td>
               <td className="  px-1 py-2">{row.Rate}</td>

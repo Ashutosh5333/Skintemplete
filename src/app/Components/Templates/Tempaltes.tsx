@@ -4,7 +4,7 @@ import { FaMicrophoneAlt } from "react-icons/fa";
 import TemplateCard from "./TemplateCard";
 
 const Tempaltes = () => {
-    
+
   return (
     <>
       <div className="rounded-lg  lg:bg-[#FFFFFF] lg:shadow-xl  py-2  border-yellow-500 ">
@@ -24,11 +24,9 @@ const Tempaltes = () => {
         <div className="Templates">
              <TemplateCard/>
         </div>
-
+         
+         <div  className=" lg:mt-[19.5%]"/>
         {/*  */}
-
-       
-
         
       </div>
     </>

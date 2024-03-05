@@ -14,7 +14,7 @@ const PreviewList = () => {
                   {INVOICE_HEAD.map((header, index) => (
                     <th
                       key={index}
-                      className="px-4 font-normal text-[#FFFFFF] text-[.8rem] text-start py-4"
+                      className="px-4 font-normal text-[#FFFFFF] text-[.65rem] text-start py-4"
                     >
                       {header}
                     </th>
@@ -25,12 +25,12 @@ const PreviewList = () => {
                 {INVOICE_ROWS.map((row, rowIndex) => (
                   <tr
                     key={rowIndex}
-                    className="font-semibold  text-[.5rem] bg-[#F8F8F8] px-8 py-8 "
+                    className="font-semibold  text-[.45rem] bg-[#F8F8F8] px-8 py-8 "
                   >
-                    <td className="  px-4 py-2">{row.name}</td>
-                    <td className="  px-4 py-2">{row.Rate}</td>
-                    <td className="  px-4 py-2">{row.qty}</td>
-                    <td className="  px-4 py-2">{row.Total}</td>
+                    <td className="  px-3 py-2">{row.name}</td>
+                    <td className="  px-3 py-2">{row.Rate}</td>
+                    <td className="  px-3 py-2">{row.qty}</td>
+                    <td className="  px-3 py-2">{row.Total}</td>
                   </tr>
                 ))}
               </tbody>
