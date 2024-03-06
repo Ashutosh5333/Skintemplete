@@ -12,13 +12,13 @@ const TemplateCard = () => {
   
   return (
     <>
-      <div className=" min-h-screen mt-5 rounded-lg ">
+      <div className=" mt-5 rounded-lg ">
         <div className="text-[#777777] px-1 cursor-pointer  py-2  grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4   gap-2">
           {data.length > 0 &&
             data.map((el, i) => {
               return (
                 <div key={i}>
-                  <div className="border-2 px-1 hover:border-black  border-gray-300 rounded-xl">
+                  <div className="border bg-[#ffffff] px-1 hover:border-black  border-gray-300 rounded-xl">
                     <div className="py-2 mt-2 px-2">
                       <Image
                         src={"/assets/Skinclub.svg"}
