@@ -14,7 +14,7 @@ const TempalteList = () => {
             {INVOICE_HEAD.map((header, index) => (
               <th
                 key={index}
-                className="font-normal px-1 text-[#FFFFFF] text-[.4rem] text-start py-4"
+                className="font-normal px-1 text-[#FFFFFF] text-[.4rem] text-start py-2"
               >
                 {header}
               </th>
@@ -25,7 +25,7 @@ const TempalteList = () => {
           {INVOICE_ROWS.map((row, rowIndex) => (
             <tr
               key={rowIndex}
-              className="font-semibold  text-[.4rem] bg-[#F8F8F8] px-4 py-8 "
+              className="font-semibold  text-[.4rem] bg-[#F8F8F8] px-4 py-6"
             >
               <td className="  px-1 py-2">{row.name}</td>
               <td className="  px-1 py-2">{row.Rate}</td>

@@ -4,7 +4,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="relative font-[Cabin]  border-red-600 flex min-h-screen w-full  flex-col  bg-[#FFFFFF] bg-clip-border p-2 ">
+      <div className="relative font-[Cabin] px-2  border-red-600 flex min-h-screen w-full  flex-col  bg-[#FFFFFF] bg-clip-border p-2 ">
 
         <div className="flex items-center gap-4 px-2 py-2 mb-2">
           

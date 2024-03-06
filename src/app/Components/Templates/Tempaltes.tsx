@@ -24,7 +24,7 @@ const Tempaltes = () => {
              <TemplateCard/>
         </div>
          
-         <div  className=" lg:mt-[19.5%]"/>
+         <div  className=" lg:mt-[9.5%] sml:mt-[9.5%] xl:[9.5%]"/>
         {/*  */}
         
       </div>

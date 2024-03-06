@@ -28,14 +28,14 @@ const TemplateCard = () => {
                       />
                     </div>
 
-                    <div className="divider  py-2 flex justify-center items-center">
+                    <div className="divider  py-1 flex justify-center items-center">
                       <p className="mx-2 text-[.6rem] text-[#4C4D4F] text-start">
                         SUMMERY
                       </p>
                       <hr className="w-[1000px] border" />
                     </div>
 
-                    <div className="px-2 text-[#000000] font-semibold  flex justify-between ">
+                    <div className="px-2 py-1 text-[#000000] font-semibold  flex justify-between ">
                       <p className=" text-[.6rem]"> Dr. Vihang </p>
                       <p className=" pr-10 text-[.6rem]"> Jane Doe </p>
                       <p> </p>
@@ -70,7 +70,7 @@ const TemplateCard = () => {
                       </div>
                     </div>
 
-                    <div className="border-t-2  py-1 " />
+                    <div className="border-t-2  py-0 " />
 
                     <div className="pb-1 border-black px-4 flex  justify-between">
                       <div></div>
@@ -84,7 +84,7 @@ const TemplateCard = () => {
                       </div>
                     </div>
 
-                    <div className="px-4 py-2 mb-2 bg-[#F8F8F8]">
+                    <div className="px-4 py-2  mb-2 bg-[#F8F8F8]">
                       <h2 className="text-[.5rem] font-semibold text-[#000000] "> Notes/Terms </h2>
                       <p className="text-[.35rem] text-[#777777]">
                         Lorem ipsum dolor sit amet. Sit eaque assumenda qui.
